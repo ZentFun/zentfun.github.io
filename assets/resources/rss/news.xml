@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Mi blog interesante</title>
+<link>http://www.tusitioweb.com/</link>
+<description>Mis artículos interesantes más recientes</description>
+<item>
+<title>Artículo 3</title>
+<link>ejemplo.com/3</link>
+<guid>ejemplo.com/3</guid>
+<pubDate>Miércoles, 27 Nov 2013 13:20:00 GMT</pubDate>
+<description>Mi último artículo.</description>
+</item>
+<item>
+<title>Artículo 2</title>
+<link>ejemplo.com/2</link>
+<guid>ejemplo.com/2</guid>
+<pubDate>Jueves, 26 Nov 2013 12:15:12 GMT</pubDate>
+<description>Mi segundo artículo.</description>
+</item>
+<item>
+<title>Artículo 1</title>
+<link>ejemplo.com/1</link>
+<guid> ejemplo.com/1</guid>
+<pubDate>Lunes, 25 Nov 2013 15:10:45 GMT</pubDate>
+<description>Mi primer artículo.</description>
+</item>
+</channel>
+</rss>
