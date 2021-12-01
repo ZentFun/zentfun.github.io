@@ -270,6 +270,11 @@ body.blog-isotope div.pagination {
     -o-transition: all .3s ease-in-out;
 }
 
+.menu-social-discord {
+    width:350px;
+    height:350px;
+}
+
 .navbar-wrapper .login-info {
     height: 85px;
     white-space: nowrap;
@@ -1228,26 +1233,34 @@ body .navbar-inverse {
     background-color: transparent!important;
 }
 
+.tab-content.gamming-news-submenu {
+    display: contents;
+}
+
+.tab-content.tournaments-submenu {
+    display: contents;
+}
+
 .tw3-menu li .sub-menu li {
     display: inline-block;
     width: 25%;
 }
 
 #main-menu-tournaments,
-#main-menu-matches {
+.main-menu-matches {
     width: 100%;
     padding: 15px 20px;
 }
 
-#main-menu-matches .matches-tab-wrapper li a {
+.main-menu-matches .matches-tab-wrapper li a {
     padding: 10px!important;
 }
 
-#main-menu-matches .match-list li {
+.main-menu-matches .match-list li {
     width: 100%;
 }
 
-#main-menu-matches .match-list .single-match-wrapper:nth-child(even) {
+.main-menu-matches .match-list .single-match-wrapper:nth-child(even) {
     background: -webkit-linear-gradient(to right, rgb(41, 40, 53) 0%,rgba(255,255,255,0) 100%);
     background: -o-linear-gradient(to right, rgb(41, 40, 53) 0%,rgba(255,255,255,0) 100%);
     background: -moz-linear-gradient(to right, rgb(41, 40, 53) 0%,rgba(255,255,255,0) 100%);
@@ -1256,12 +1269,12 @@ body .navbar-inverse {
     border-bottom: 1px solid RGBA(0, 0, 0, 0.48);
 }
 
-#main-menu-matches .match-list .single-match-wrapper .date {
+.main-menu-matches .match-list .single-match-wrapper .date {
     text-transform: none;
     margin-left: 0;
 }
 
-#main-menu-matches .match-list .single-match-wrapper .team-info a {
+.main-menu-matches .match-list .single-match-wrapper .team-info a {
     padding-bottom: 0!important;
 }
 
@@ -5434,7 +5447,7 @@ body.single-team-page .teams-list .single-team .team-info {
 body.teams-page .teams-list .single-team a.team-title,
 body.single-team-page .teams-list .single-team a.team-title,
 body.single-tournament-page .teams-list .single-team a.team-title,
-#main-menu-matches .match-list .single-team a.team-title {
+.main-menu-matches .match-list .single-team a.team-title {
     display: block;
     color: #ff8800;
     font-size: 12px;
@@ -5450,7 +5463,7 @@ body.single-tournament-page .teams-list .single-team a.team-title:hover {
 body.teams-page .teams-list .single-team span.members,
 body.single-team-page .teams-list .single-team span.members,
 body.single-tournament-page .teams-list .single-team span.members,
-#main-menu-matches .match-list .single-team span.members {
+.main-menu-matches .match-list .single-team span.members {
     font-size: 80%;
 }
 

@@ -9,5 +9,20 @@
     "message-documentation": "qqq"
   },
   "lang": "es",
-  "title-homepage" : "ZentFun | The2 gaming shared coin2"
+  "title-homepage" : "ZentFun | The gaming shared coin",
+  "register" : "Registrase",
+  "sign-in" : "Iniciar Sesion",
+  "menu-homepage" : "Inicio",
+  "menu-communities" : "Comunidades",
+  "menu-gaming-news" : "Noticias de Juegos",
+  "menu-forums" : "Foros",
+  "menu-shop" : "Tienda",
+  "menu-blog" : "Blog",
+  "menu-contact" : "Contacto",
+  "newsticker-stage-one" : " ",
+  "newsticker-stage-two" : "This List Item will scroll infintely",
+  "newsticker-stage-three" : "And this one will follow it",
+  "newsticker-stage-final" : "Finally when it goes out of screen, it will queue again at the end",
+  "EN" : "EN",
+  "ES" : "ES"
 }
