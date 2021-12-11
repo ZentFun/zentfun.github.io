@@ -12,6 +12,11 @@
             return false;
         });
 
+        $("#owl-demo").owlCarousel({
+			autoPlay: 3000, //Set AutoPlay to 3 seconds
+		 	items : 5
+		});
+
         var t = jQuery(".login-dialog-wrapper"),
             e = jQuery(".login-btn"),
             r = jQuery(".form-wrapper i.fa-close"),

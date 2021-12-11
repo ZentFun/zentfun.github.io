@@ -29,6 +29,8 @@
 		<link href="assets/css/bootstrap.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link href="assets/css/bootstrap-fixes.css" rel="stylesheet">
+		<link href="assets/vendors/owl-carousel/owl.carousel.css" rel="stylesheet">
+		<link href="assets/vendors/owl-carousel/owl.theme.css" rel="stylesheet">
 		<script src="assets/vendors/jquery/jquery/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>      
 		<title data-i18n="title-sports">Homepage - Sports | Arcane</title>
@@ -840,14 +842,6 @@
 			        <span class="tickeroverlay-right">&nbsp;</span>
 			    </div>
 			</div>
-			<div class="search-top">
-				<form method="get" id="sform" action="http://skywarriorthemes.com/arcane/">
-                    <input type="search" placeholder="Search for..." autocomplete="off" name="s" style="width: 3px; padding: 10px 20px 8px; border: 0px solid transparent; cursor: pointer; color: rgb(0, 0, 0);">
-                    <input type="hidden" name="post_type[]" value="post">
-                    <input type="hidden" name="post_type[]" value="page">
-                    <i class="fa fa-search"></i>
-                </form>
-			</div>
 		</div>
 	</div>
 
@@ -1366,7 +1360,7 @@
                                 </div>
                                 <div class="versus">
                                     VS
-</div>
+																</div>
                                 <div class="away-team">
                                     <span>cloud 9</span>
                                 </div>
@@ -1394,7 +1388,7 @@
                                 </div>
                                 <div class="versus">
                                     VS
-</div>
+																</div>
                                 <div class="away-team">
                                     <span>natus vincere</span>
                                 </div>
@@ -1422,7 +1416,7 @@
                                 </div>
                                 <div class="versus">
                                     VS
-</div>
+																</div>
                                 <div class="away-team">
                                     <span>virtus pro</span>
                                 </div>
@@ -1469,39 +1463,15 @@
 <div class="container back-to-top-wrapper">
     <a href="#" class="back-to-top" id="scroll"></a>
 </div>
-
-	<script src="js/jquery.webticker.min.js"></script>
+	<script src="assets/vendors/jquery/i18n/checkLang.js"></script>
+	<script src="assets/vendors/jquery/i18n/jquery.i18n.js"></script>
+	<script src="assets/vendors/jquery/i18n/jquery.i18n.messagestore.js"></script>
+	<script src="assets/vendors/jquery/i18n/jquery.i18n.parser.js"></script>
+	<script src="assets/vendors/jquery/i18n/global.js"></script>
+	<script src="assets/vendors/jquery/webticker/jquery.webticker.min.js"></script>
+	<script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
 	<script src="assets/js/WebTicker.js"></script>
+	<script async src="https://www.youtube.com/iframe_api"></script>
+	<script src="assets/js/YoutubeApiIframeSports.js"></script>
 </body>
-
-<script async src="https://www.youtube.com/iframe_api"></script>
-<script>
-	function onYouTubeIframeAPIReady() {
-	var player;
-	player = new YT.Player('muteYouTubeVideoPlayer', {
-	videoId: 'Gu3ye_s4BaY', // YouTube Video ID
-	width: 560, // Player width (in px)
-	height: 316, // Player height (in px)
-	playerVars: {
-	autoplay: 1, // Auto-play the video on load
-	controls: 1, // Show pause/play buttons in player
-	showinfo: 0, // Hide the video title
-	modestbranding: 1, // Hide the Youtube Logo
-	loop: 1, // Run the video in a loop
-	fs: 0, // Hide the full screen button
-	cc_load_policty: 0, // Hide closed captions
-	iv_load_policy: 3, // Hide the Video Annotations
-	autohide: 0 // Hide video controls when playing
-	},
-	events: {
-	onReady: function(e) {
-	e.target.mute();
-	}
-	}
-	});
-	}
-	// Written by @labnol
-</script>
-
-
 </html>
